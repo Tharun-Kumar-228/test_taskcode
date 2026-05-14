@@ -212,7 +212,7 @@ app.get('*', (req, res) => {
 });
 
 // Use process.env.PORT for Glitch, fallback to 3000
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
